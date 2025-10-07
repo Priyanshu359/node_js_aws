@@ -8,9 +8,9 @@ on:
 env:
   AWS_REGION: eu-north-1
   ECR_REPOSITORY: car-rental
-  ECS_CLUSTER: car-rental-app-cluster
-  ECS_SERVICE: car-rental-app-service
-  ECS_TASK_DEFINITION: car-rental-app-task-definition
+  ECS_CLUSTER: car-rental-cluster
+  ECS_SERVICE: car-rental-service
+  ECS_TASK_DEFINITION: car-rental-task-definition
   NODE_ENV: test
 
 jobs:
