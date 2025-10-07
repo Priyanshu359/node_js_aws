@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-south-1
-  ECR_REPOSITORY: car-rental-app
+  ECR_REPOSITORY: car-rental
   ECS_CLUSTER: car-rental-app-cluster
   ECS_SERVICE: car-rental-app-service
   ECS_TASK_DEFINITION: car-rental-app-task-definition
